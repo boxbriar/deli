@@ -1,0 +1,663 @@
+html,
+body {
+  min-height: 100%;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.fontOpen {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.fontDroid {
+  font-family: 'Droid Serif', "Times New Roman", Times, serif;
+}
+.normal {
+  font-weight: 400;
+}
+.bold {
+  font-weight: 600;
+}
+.italic {
+  font-style: italic;
+}
+.center {
+  text-align: center;
+}
+h3 {
+  font-size: 29px;
+  font-family: 'Droid Serif', "Times New Roman", Times, serif;
+  color: #444444;
+}
+h4 {
+  font-size: 21px;
+  font-family: 'Droid Serif', "Times New Roman", Times, serif;
+  color: #444444;
+}
+/* ----------------------------------------------------------------------------------------------------    Home */
+#backdrop-home {
+  background-image: url('../img/clubHome.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #494949;
+  text-align: center;
+}
+#backdrop-home .content {
+  margin-top: 15%;
+  position: relative;
+}
+#backdrop-home .logo {
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+}
+#backdrop-home .logo .inside {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 243px;
+  background-image: url('../img/logoHome.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#backdrop-home .links {
+  text-align: center;
+  display: inline;
+  position: relative;
+  top: -43px;
+  padding: 25px 50px;
+  margin: 0 auto;
+  min-height: 75px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  font-family: 'Droid Serif', "Times New Roman", Times, serif;
+}
+#backdrop-home .links a {
+  color: #444444;
+  margin: -5px;
+  z-index: 2000;
+  position: relative;
+}
+#backdrop-home .links a:hover {
+  text-decoration: none;
+}
+#backdrop-home .links a.menuLink {
+  padding: 0px 25px 0px 0px;
+}
+#backdrop-home .links a.cateringLink {
+  padding: 0px 80px 0px 25px;
+}
+#backdrop-home .links a.contactLink {
+  padding: 0px 0px 0px 80px;
+}
+/* ----------------------------------------------------------------------------------------------------    Head  */
+.pw {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#backdrop {
+  margin: 0 auto;
+  background-color: #F6F6F6;
+  border-top: solid 1px #f6f6f6;
+  /* ----------------------------------------------------------------------------------------------------    Footer  */
+}
+#backdrop .wrapper {
+  min-height: 100%;
+  margin-bottom: 176px;
+  /* ----------------------------------------------------------------------------------------------------    Notice  */
+  /* ----------------------------------------------------------------------------------------------------    Menu  */
+  /* ----------------------------------------------------------------------------------------------------    Catering  */
+  /* ----------------------------------------------------------------------------------------------------    Message  */
+}
+#backdrop .wrapper .header {
+  background-color: #ffffff;
+  border-bottom: solid 3px #555555;
+  height: 45px;
+}
+#backdrop .wrapper .header .logo {
+  position: relative;
+  z-index: 1000;
+}
+#backdrop .wrapper .header .logo .inside {
+  display: block;
+  float: left;
+  margin: 0 auto;
+  margin-top: -4px;
+  width: 156px;
+  height: 157px;
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#backdrop .wrapper .header .logo .insideSmall {
+  display: none;
+}
+#backdrop .wrapper .header .links {
+  padding-top: 10px;
+  text-align: right;
+}
+#backdrop .wrapper .header .links a {
+  font-size: 18px;
+  color: #444444;
+  font-family: 'Droid Serif', "Times New Roman", Times, serif;
+  padding-left: 20px;
+}
+#backdrop .wrapper .header .links a:hover {
+  text-decoration: none;
+}
+#backdrop .wrapper .notice {
+  border-top: solid 3px #ffffff;
+}
+#backdrop .wrapper .notice .combo {
+  float: right;
+  text-align: right;
+  margin-top: -80px;
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border: solid 2px #1d8382;
+}
+#backdrop .wrapper .notice .combo h4 {
+  margin-bottom: 3px;
+}
+#backdrop .wrapper .notice .combo p {
+  font-size: 14px;
+}
+#backdrop .wrapper .notice .condiments {
+  text-align: right;
+  margin-top: -100px;
+  font-style: italic;
+  font-size: 12px;
+  color: #8A8A8A;
+}
+#backdrop .wrapper .menu {
+  padding-top: 30px;
+}
+#backdrop .wrapper .menu .menuL .sandwiches,
+#backdrop .wrapper .menu .menuL .kids {
+  margin-top: 30px;
+}
+#backdrop .wrapper .menu .menuL .sandwiches h4,
+#backdrop .wrapper .menu .menuL .kids h4 {
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+#backdrop .wrapper .menu .menuL .sandwiches .item,
+#backdrop .wrapper .menu .menuL .kids .item {
+  width: 100%;
+  display: flex;
+  padding-bottom: 8px;
+}
+#backdrop .wrapper .menu .menuL .sandwiches .item .name,
+#backdrop .wrapper .menu .menuL .kids .item .name {
+  padding-right: 5px;
+}
+#backdrop .wrapper .menu .menuL .sandwiches .item .dots,
+#backdrop .wrapper .menu .menuL .kids .item .dots {
+  height: 15px;
+  border-bottom: dashed 1px #C4BCBC;
+  flex-grow: 1;
+}
+#backdrop .wrapper .menu .menuL .sandwiches .item .price,
+#backdrop .wrapper .menu .menuL .kids .item .price {
+  float: right;
+  text-align: right;
+  padding-left: 5px;
+}
+#backdrop .wrapper .menu .menuL .sandwiches .item .extra,
+#backdrop .wrapper .menu .menuL .kids .item .extra {
+  font-style: italic;
+  font-size: 12px;
+  color: #8A8A8A;
+}
+#backdrop .wrapper .menu .menuL .kids {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#backdrop .wrapper .menu .menuCenter {
+  padding: 0 50px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+#backdrop .wrapper .menu .menuCenter .menuC {
+  text-align: center;
+  background-color: #555555;
+  padding: 5px;
+  border-radius: 75px;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .topL {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  background-image: url('../img/topL.png');
+  background-repeat: no-repeat;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .topR {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  right: 50px;
+  background-image: url('../img/topR.png');
+  background-repeat: no-repeat;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .bottomL {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  background-image: url('../img/bottomL.png');
+  background-repeat: no-repeat;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .bottomR {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  background-image: url('../img/bottomR.png');
+  background-repeat: no-repeat;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .extra {
+  background-color: #1d8382;
+  color: #ffffff;
+  border-radius: 55px;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .extra .sides h4,
+#backdrop .wrapper .menu .menuCenter .menuC .extra .drinks h4 {
+  margin-bottom: 0px;
+  font-size: 23px;
+  color: #ffffff;
+  position: relative;
+  z-index: 1000;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .extra .sides h4 span,
+#backdrop .wrapper .menu .menuCenter .menuC .extra .drinks h4 span {
+  font-size: 20px;
+  padding-left: 10px;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .extra .sides ul,
+#backdrop .wrapper .menu .menuCenter .menuC .extra .drinks ul {
+  list-style: none;
+  padding-left: 0px;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .extra .sides ul li,
+#backdrop .wrapper .menu .menuCenter .menuC .extra .drinks ul li {
+  padding-top: 13px;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .extra .sides ul li span,
+#backdrop .wrapper .menu .menuCenter .menuC .extra .drinks ul li span {
+  float: right;
+  font-size: 13px;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .extra .sides ul li.extra,
+#backdrop .wrapper .menu .menuCenter .menuC .extra .drinks ul li.extra {
+  border-bottom: none;
+  font-style: italic;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .extra .sides {
+  padding-top: 40px;
+}
+#backdrop .wrapper .menu .menuCenter .menuC .extra .drinks {
+  padding: 40px 0 40px 0;
+}
+#backdrop .wrapper .menu .menuR .soup,
+#backdrop .wrapper .menu .menuR .salad,
+#backdrop .wrapper .menu .menuR .desserts {
+  margin-top: 30px;
+}
+#backdrop .wrapper .menu .menuR .soup h4,
+#backdrop .wrapper .menu .menuR .salad h4,
+#backdrop .wrapper .menu .menuR .desserts h4 {
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+#backdrop .wrapper .menu .menuR .soup .th,
+#backdrop .wrapper .menu .menuR .salad .th,
+#backdrop .wrapper .menu .menuR .desserts .th {
+  width: 100%;
+}
+#backdrop .wrapper .menu .menuR .soup .th h4,
+#backdrop .wrapper .menu .menuR .salad .th h4,
+#backdrop .wrapper .menu .menuR .desserts .th h4 {
+  display: inline-block;
+  margin-top: 0px;
+}
+#backdrop .wrapper .menu .menuR .soup .th .cup,
+#backdrop .wrapper .menu .menuR .salad .th .cup,
+#backdrop .wrapper .menu .menuR .desserts .th .cup,
+#backdrop .wrapper .menu .menuR .soup .th .bowl,
+#backdrop .wrapper .menu .menuR .salad .th .bowl,
+#backdrop .wrapper .menu .menuR .desserts .th .bowl {
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+#backdrop .wrapper .menu .menuR .soup .th .bowl,
+#backdrop .wrapper .menu .menuR .salad .th .bowl,
+#backdrop .wrapper .menu .menuR .desserts .th .bowl {
+  min-width: 50px;
+}
+#backdrop .wrapper .menu .menuR .soup .item,
+#backdrop .wrapper .menu .menuR .salad .item,
+#backdrop .wrapper .menu .menuR .desserts .item {
+  width: 100%;
+  display: flex;
+  padding-bottom: 8px;
+}
+#backdrop .wrapper .menu .menuR .soup .item .name,
+#backdrop .wrapper .menu .menuR .salad .item .name,
+#backdrop .wrapper .menu .menuR .desserts .item .name {
+  padding-right: 5px;
+}
+#backdrop .wrapper .menu .menuR .soup .item .dots,
+#backdrop .wrapper .menu .menuR .salad .item .dots,
+#backdrop .wrapper .menu .menuR .desserts .item .dots {
+  height: 15px;
+  border-bottom: dashed 1px #C4BCBC;
+  flex-grow: 1;
+}
+#backdrop .wrapper .menu .menuR .soup .item .price,
+#backdrop .wrapper .menu .menuR .salad .item .price,
+#backdrop .wrapper .menu .menuR .desserts .item .price,
+#backdrop .wrapper .menu .menuR .soup .item .price1,
+#backdrop .wrapper .menu .menuR .salad .item .price1,
+#backdrop .wrapper .menu .menuR .desserts .item .price1,
+#backdrop .wrapper .menu .menuR .soup .item .price2,
+#backdrop .wrapper .menu .menuR .salad .item .price2,
+#backdrop .wrapper .menu .menuR .desserts .item .price2 {
+  float: right;
+  text-align: right;
+  padding-left: 5px;
+}
+#backdrop .wrapper .menu .menuR .soup .item .price2,
+#backdrop .wrapper .menu .menuR .salad .item .price2,
+#backdrop .wrapper .menu .menuR .desserts .item .price2 {
+  min-width: 50px;
+  padding-left: 0px;
+}
+#backdrop .wrapper .menu .menuR .soup .item .extra,
+#backdrop .wrapper .menu .menuR .salad .item .extra,
+#backdrop .wrapper .menu .menuR .desserts .item .extra {
+  font-style: italic;
+  font-size: 12px;
+  color: #8A8A8A;
+}
+#backdrop .wrapper .menu .menuR .soup .space,
+#backdrop .wrapper .menu .menuR .salad .space,
+#backdrop .wrapper .menu .menuR .desserts .space {
+  margin-top: 10px;
+}
+#backdrop .wrapper .menu .menuR .salad,
+#backdrop .wrapper .menu .menuR .desserts {
+  margin-top: 80px;
+}
+#backdrop .wrapper .catering .coldcut .box,
+#backdrop .wrapper .catering .sandwich .box,
+#backdrop .wrapper .catering .rolls .box,
+#backdrop .wrapper .catering .sides .box {
+  padding: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.05);
+}
+#backdrop .wrapper .catering .coldcut .box .image,
+#backdrop .wrapper .catering .sandwich .box .image,
+#backdrop .wrapper .catering .rolls .box .image,
+#backdrop .wrapper .catering .sides .box .image {
+  margin: 0 auto;
+  height: 190px;
+  max-width: 890px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#backdrop .wrapper .catering .coldcut .box h4,
+#backdrop .wrapper .catering .sandwich .box h4,
+#backdrop .wrapper .catering .rolls .box h4,
+#backdrop .wrapper .catering .sides .box h4 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 19px;
+  color: #000;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+#backdrop .wrapper .catering .coldcut .box p,
+#backdrop .wrapper .catering .sandwich .box p,
+#backdrop .wrapper .catering .rolls .box p,
+#backdrop .wrapper .catering .sides .box p {
+  margin: 0 20px;
+}
+#backdrop .wrapper .catering .coldcut .box p span,
+#backdrop .wrapper .catering .sandwich .box p span,
+#backdrop .wrapper .catering .rolls .box p span,
+#backdrop .wrapper .catering .sides .box p span {
+  font-weight: 600;
+}
+#backdrop .wrapper .catering .coldcut .box .prices,
+#backdrop .wrapper .catering .sandwich .box .prices,
+#backdrop .wrapper .catering .rolls .box .prices,
+#backdrop .wrapper .catering .sides .box .prices {
+  margin: 30px 20px 0 20px;
+  padding-bottom: 5px;
+}
+#backdrop .wrapper .catering .coldcut .box .prices .item,
+#backdrop .wrapper .catering .sandwich .box .prices .item,
+#backdrop .wrapper .catering .rolls .box .prices .item,
+#backdrop .wrapper .catering .sides .box .prices .item {
+  display: flex;
+  padding-bottom: 15px;
+}
+#backdrop .wrapper .catering .coldcut .box .prices .item .size,
+#backdrop .wrapper .catering .sandwich .box .prices .item .size,
+#backdrop .wrapper .catering .rolls .box .prices .item .size,
+#backdrop .wrapper .catering .sides .box .prices .item .size {
+  padding-right: 5px;
+}
+#backdrop .wrapper .catering .coldcut .box .prices .item .dots,
+#backdrop .wrapper .catering .sandwich .box .prices .item .dots,
+#backdrop .wrapper .catering .rolls .box .prices .item .dots,
+#backdrop .wrapper .catering .sides .box .prices .item .dots {
+  height: 15px;
+  border-bottom: dashed 1px #C4BCBC;
+  flex-grow: 1;
+}
+#backdrop .wrapper .catering .coldcut .box .prices .item .price,
+#backdrop .wrapper .catering .sandwich .box .prices .item .price,
+#backdrop .wrapper .catering .rolls .box .prices .item .price,
+#backdrop .wrapper .catering .sides .box .prices .item .price {
+  float: right;
+  text-align: right;
+  padding-left: 5px;
+}
+#backdrop .wrapper .catering .coldcut {
+  padding-right: 30px;
+}
+#backdrop .wrapper .catering .coldcut .image {
+  background-image: url('../img/meat.png');
+}
+#backdrop .wrapper .catering .sandwich {
+  padding-left: 30px;
+}
+#backdrop .wrapper .catering .sandwich .image {
+  background-image: url('../img/sandwich.png');
+}
+#backdrop .wrapper .catering .rolls {
+  padding-right: 30px;
+  margin-top: 70px;
+}
+#backdrop .wrapper .catering .rolls .image {
+  background-image: url('../img/bread.png');
+}
+#backdrop .wrapper .catering .sides {
+  padding-left: 30px;
+  margin-top: 70px;
+}
+#backdrop .wrapper .catering .sides .image {
+  background-image: url('../img/potato.png');
+}
+#backdrop .wrapper .catering .spacer {
+  width: 100%;
+  height: 2px;
+}
+#backdrop .wrapper .sendMessage h3 {
+  margin-top: 40px;
+}
+#backdrop .wrapper .sendMessage .contactForm {
+  font-size: 16px;
+}
+#backdrop .wrapper .sendMessage .contactForm input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #000;
+  border: none;
+  background-color: #E9E9E9;
+}
+#backdrop .wrapper .sendMessage .contactForm input:focus {
+  outline: none;
+}
+#backdrop .wrapper .sendMessage .contactForm textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #000;
+  min-height: 250px;
+  border: none;
+  background-color: #E9E9E9;
+}
+#backdrop .wrapper .sendMessage .contactForm textarea:focus {
+  outline: none;
+}
+#backdrop .wrapper .sendMessage .contactForm a {
+  float: right;
+  padding: 10px 20px;
+  background-color: #1d8382;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
+#backdrop .wrapper .sendMessage .contactForm a:hover {
+  text-decoration: none;
+}
+#backdrop .footer {
+  height: 176px;
+  border-top: solid 2px #555555;
+  background-color: #ffffff;
+  padding: 10px 0 0 0;
+}
+#backdrop .footer .hours h4,
+#backdrop .footer .contact h4 {
+  font-size: 20px;
+}
+#backdrop .footer .hours p,
+#backdrop .footer .contact p {
+  font-size: 13px;
+}
+#backdrop .footer .hours p span,
+#backdrop .footer .contact p span {
+  display: block;
+}
+#backdrop .footer .map {
+  margin-top: 45px;
+  height: 100px;
+  max-width: 700px;
+  border: solid 2px #555;
+  background-image: url('../img/map4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #494949;
+}
+#backdrop .footer .contact {
+  text-align: right;
+}
+#backdrop .footer .contact .social img {
+  padding: 10px 0 10px 10px;
+}
+/* -----------------------------------------------------------------------------------------------------------------------    Media Queries  */
+/*  Medium   */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #backdrop .wrapper .catering .coldcut .box .text,
+  .sandwich .box .text,
+  .rolls .box .text,
+  .sides .box .text {
+    min-height: 60px;
+  }
+}
+/*  Small  */
+@media (min-width: 768px) and (max-width: 991px) {
+  #backdrop .wrapper .menu .menuCenter .menuC .extra .sides,
+  .drinks {
+    width: 40%;
+    display: inline-block;
+  }
+  #backdrop .footer {
+    min-height: 195px;
+  }
+}
+/*  Extra Small  */
+@media (max-width: 767px) {
+  #backdrop-home .content .links {
+    padding: 20px 20px;
+    min-height: 75px;
+    font-size: 14px;
+  }
+  #backdrop-home .content .links a.menuLink {
+    padding: 0px 0px 0px 0px;
+  }
+  #backdrop-home .content .links a.cateringLink {
+    padding: 0px 120px 0px 22px;
+  }
+  #backdrop-home .content .links a.contactLink {
+    padding: 0px 0px 0px 0px;
+  }
+  #backdrop .wrapper .header .logo .inside {
+    display: none;
+  }
+  #backdrop .wrapper .header {
+    height: 120px;
+  }
+  #backdrop .wrapper .header .logo .insideSmall {
+    display: block;
+    float: left;
+    margin: 0 auto;
+    margin-top: 4px;
+    width: 156px;
+    height: 157px;
+    background-image: url('../img/logoSm.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #backdrop .wrapper .header .links a {
+    display: block;
+  }
+  #backdrop .wrapper .notice .combo {
+    margin-top: 0px;
+  }
+  #backdrop .wrapper .notice .condiments {
+    margin-top: 0px;
+  }
+  #backdrop .footer {
+    min-height: 195px;
+  }
+  #backdrop .footer .map {
+    display: none;
+  }
+  #backdrop .footer .hours {
+    width: 50%;
+    display: inline-block;
+    float: left;
+  }
+  #backdrop .footer .contact {
+    width: 50%;
+    display: inline-block;
+    float: right;
+  }
+}
